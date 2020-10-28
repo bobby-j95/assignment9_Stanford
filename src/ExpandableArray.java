@@ -12,7 +12,7 @@ public class ExpandableArray {
 	*/
 	public ExpandableArray() {
 		//array = new Object();
-		array = null;
+		array = 0;
 	}
 
 	/**
