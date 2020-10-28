@@ -1,0 +1,6 @@
+The first one doesn't work because its trying to do "==" to compare a value when 
+String isn't a primative. It wont send an error but wont give the answer it needs.
+In order to do it they need string.equals("Q").
+
+The second one works because it finds the value of a primative (char) and checks the main 
+string for a length of at least 1.
